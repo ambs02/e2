@@ -12,7 +12,7 @@ Found on OpenCogData: https://nimh-dsst.github.io/OpenCogData/nussenbaum-hartley
 
 
 # Instructions for use
-1. Clone the git repository https://github.com/ambs02/e2
+1. git clone https://github.com/ambs02/e2 && cd e2
 2. sudo chmod -R 777 nbs/
 3. docker-compose up -d 
 4. docker exec <namenode> hdfs dfs -put /home/nbs/e2_learning_data.csv /e2_learning_data.csv
